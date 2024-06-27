@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Coffee Shop Website</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/logo.jpg" alt="" />
+      </a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#products">products</a>
+        <a href="#review">review</a>
+        <a href="#contacts">contacts</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box" class="fas fa-search"></label>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/lavazza_rossa2.png" alt="" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">$15.99</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/lavazza_crema_egusto2.jpg" alt="" />
+          <div class="content">
+            <h3>cart item 02</h3>
+            <div class="price">$15.99</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/lavazza_espresso_italiano.jpg" alt="" />
+          <div class="content">
+            <h3>cart item 03</h3>
+            <div class="price">$15.99</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/lavazza_decaffeinato2.png" alt="" />
+          <div class="content">
+            <h3>cart item 04</h3>
+            <div class="price">$15.99</div>
+          </div>
+        </div>
+        <a href="#" class="btn">checkout now</a>
+      </div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>fresh coffee in the morning</h3>
+        <p>Freshly grinded coffee for your espresso</p>
+        <a href="#" class="btn">get yours now</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h1 class="heading"><span>about</span> us</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/about.jpg" alt="" />
+        </div>
+
+        <div class="content">
+          <h3>what makes our coffee special</h3>
+          <p>
+            At our coffee shop, we believe that every cup of coffee should be an
+            extraordinary experience. What sets our coffee apart is our
+            unwavering commitment to quality and freshness. We source only the
+            finest, ethically grown beans from the world's best coffee regions,
+            ensuring each sip is rich in flavor and aroma. Our expert roasters
+            then carefully craft each batch to perfection, bringing out the
+            unique characteristics of every bean.
+          </p>
+          <p>
+            Additionally, our baristas are passionate about their craft,
+            meticulously preparing each cup to highlight the distinctive notes
+            and profiles of our blends. From farm to cup, our dedication to
+            excellence ensures that every coffee lover enjoys an unparalleled
+            coffee experience with us.
+          </p>
+          <a href="#" class="btn">learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <h1 class="heading">our <span>menu</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/espresson.png" alt="" />
+          <h3>Espresso</h3>
+          <div class="price">$15.99 <span>20.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="images/espresso_lungo.jpg" alt="" />
+          <h3>Espresso Lungo</h3>
+          <div class="price">$15.99 <span>20.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="images/cappuccino.jpg" alt="" />
+          <h3>Cappuccino</h3>
+          <div class="price">$15.99 <span>20.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="images/flat_white.jpg" alt="" />
+          <h3>Flat White</h3>
+          <div class="price">$15.99 <span>20.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="images/latte.jpg" alt="" />
+          <h3>Latte</h3>
+          <div class="price">$15.99 <span>20.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="images/ice_latte.jpg" alt="" />
+          <h3>Ice Latte</h3>
+          <div class="price">$15.99 <span>20.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <h1 class="heading">our <span>products</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="images/lavazza_crema_egusto.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>lavazza crema egusto</h3>
+
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            <div class="price">$15.99 <span>20.99</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="images/lavazza_decaffeinato.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>lavazza decaffeinato</h3>
+
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            <div class="price">$15.99 <span>20.99</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="images/lavazza_espresso_italiano.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>lavazza espresso italiano</h3>
+
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            <div class="price">$15.99 <span>20.99</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="images/lavazza_rossa.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>lavazza rossa</h3>
+
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            <div class="price">$15.99 <span>20.99</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="images/lavazza_qualita_oro.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>lavazza qualita oro</h3>
+
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            <div class="price">$15.99 <span>20.99</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="images/lavazza_perfetto.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>lavazza perfetto</h3>
+
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            <div class="price">$15.99 <span>20.99</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="review" id="review">
+      <h1 class="heading">customer <span>review</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/quote.png" alt="" class="quote" />
+          <p>
+            The beans are fresh, aromatic, and incredibly flavorful. I've tried
+            their Lavazza Crema e Gusto and Lavazza Qualita Oro, and both
+            exceeded my expectations. The grind is perfect for my espresso
+            machine, and the taste is rich and smooth with no bitterness.
+          </p>
+          <img src="images/customer1.jpg" class="user" alt="" />
+          <h3>Ivan Customerov</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/quote.png" alt="" class="quote" />
+          <p>
+            They offer an impressive range of options, from classic espresso
+            blends to unique single-origin beans. Whether you're into dark
+            roasts or prefer a lighter, fruitier profile, there's something for
+            everyone.
+          </p>
+          <img src="images/customer2.jpg" class="user" alt="" />
+          <h3>Customer Ivanov</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+      <h1 class="heading"><span>contact</span> us</h1>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/place/CoffeeBar/@42.6925191,23.3186853,17z/data=!3m1!4b1!4m6!3m5!1s0x40aa856c44fb4e73:0x589029919008f63a!8m2!3d42.6925152!4d23.3212602!16s%2Fg%2F11fpsbxthc?entry=ttu"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+
+        <form action="">
+          <h3>get in touch</h3>
+
+          <div class="input-box">
+            <span class="fas fa-user"></span>
+            <input type="text" placeholder="name" />
+          </div>
+
+          <div class="input-box">
+            <span class="fas fa-envelope"></span>
+            <input type="email" placeholder="email" />
+          </div>
+
+          <div class="input-box">
+            <span class="fas fa-phone"></span>
+            <input type="number" placeholder="number" />
+          </div>
+
+          <input type="submit" value="contact now" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+
+  <footer>
+    <div class="share">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+      <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="links">
+      <a href="#home">home</a>
+      <a href="#about">about</a>
+      <a href="#menu">menu</a>
+      <a href="#products">products</a>
+      <a href="#review">review</a>
+      <a href="#contacts">contacts</a>
+    </div>
+  </footer>
+</html>
